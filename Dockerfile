@@ -1,8 +1,8 @@
 FROM node:13.12.0-alpine
  
-WORKDIR '/client'
+WORKDIR '/server'
 
-COPY ./package.json ./
+COPY ./client/package.json ./
  
 RUN npm install
  
