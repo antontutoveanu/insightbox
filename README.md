@@ -1,3 +1,7 @@
-# insightbox
+# insightBox
 
-Email analytics web application.
+Email Analytics web application.
+
+In progress.
+
+[https://insightbox.xyz/](https://insightbox.xyz/)
