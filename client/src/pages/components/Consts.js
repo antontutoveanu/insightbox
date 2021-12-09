@@ -1,0 +1,1 @@
+export const OAUTHLINK = "https://accounts.google.com/o/oauth2/auth?access_type=online&client_id=561581849507-80tuicn3gknfa01ia5i644i87hbni5m6.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Finsightbox.xyz%2Fsignin&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&state=state-token"
