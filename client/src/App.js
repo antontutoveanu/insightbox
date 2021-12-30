@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/App.css";
 
 // import modules
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Navigate } from "react-router-dom";
 import { createClient, Provider } from "urql";
 
 // import theme
