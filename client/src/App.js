@@ -57,6 +57,7 @@ function App() {
                             <Route path="/">
                                 <Home />
                             </Route>
+                            <Route path="*" element={<Navigate to ="/" />}/>
                         </Switch>
                     </BrowserRouter>
                 </Provider>
