@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/App.css";
 
 // import modules
-import { BrowserRouter, Switch, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { createClient, Provider } from "urql";
 
 // import theme
@@ -57,7 +57,7 @@ function App() {
                             <Route path="/">
                                 <Home />
                             </Route>
-                            <Route path="*" element={<Navigate to ="/" />}/>
+                            <Redirect from="*" to="/" />
                         </Switch>
                     </BrowserRouter>
                 </Provider>
